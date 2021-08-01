@@ -1,4 +1,3 @@
-# Big-Data
 ## Analysis of COVID-19 Open Research Dataset
 ### Main Overview
 In response to the COVID-19 pandemic, the Allen Institute for AI has partnered with leading research groups to prepare and distribute the COVID-19 Open Research Dataset (CORD-19), a free resource of over 44,000 scholarly articles, including over 29,000 with full text, about COVID-19 and the coronavirus family of viruses for use by the global research community.
