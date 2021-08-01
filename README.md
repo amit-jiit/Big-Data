@@ -10,18 +10,19 @@ cord_uid, sha,source_x, title,doi, pmcid, pubmed_id, license, abstract, publish_
 
 you can obtain a historical CORD-19 dataset by requesting:
 https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/<date_iso_str>/<file_name>
+
 where <date is str> is in the format YYYY-MM-DD and <file name> is metadata.csv. 
 So e.g. for the 2020-05-01 dataset, the link would be
 https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-05-01/metadata.csv
 
   
 Detailed description of the CORD-19 dataset is available at
-https://github.com/rearc-data/covid-19-open-research 
-https://www.semanticscholar.org/cord19
-https://www.scimagojr.com/journalrank.php.
+https://github.com/rearc-data/covid-19-open-research
+  https://www.semanticscholar.org/cord19
+  https://www.scimagojr.com/journalrank.php.
   
 ### Problem statements
-    
+I have analysed dataset using different Big Data tools like Pyspark,Hive.
 1. Find the 5 most common journals, list them along with their frequencies.
 2. The top 5 average abstract lengths (number of words) per journal.
 3. Titles of the 5 papers with the highest numbers of authors. Both the numbers of authors and the corresponding titles need to be output.
