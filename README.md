@@ -17,9 +17,12 @@ https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-05-01/metada
 
   
 Detailed description of the CORD-19 dataset is available at
+  
 https://github.com/rearc-data/covid-19-open-research
-  https://www.semanticscholar.org/cord19
-  https://www.scimagojr.com/journalrank.php.
+  
+https://www.semanticscholar.org/cord19
+
+https://www.scimagojr.com/journalrank.php.
   
 ### Problem statements
 I have analysed dataset using different Big Data tools like Pyspark,Hive.
@@ -29,3 +32,9 @@ I have analysed dataset using different Big Data tools like Pyspark,Hive.
 4. The top 5 most prolific authors along with the number of papers they have contributed to.
 5. If an author’s H index is computed by summing all the H indexes of the journals they’ve published in (as included in the scimagojr dataset), list the 5 people with the top author H index values.
 6. Plot the number of papers per month since 2020-01. You need to include your visualization as well as a table of the values you have plotted for each month.
+
+ 
+  ## More Information
+  * Source: [Allen Institute for AI](https://allenai.org/) 
+  * [Dataset License](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/COVID.DATA.LIC.AGMT.pdf)
+  * [COVID-19 Open Research Dataset Homepage](https://pages.semanticscholar.org/coronavirus-research)
